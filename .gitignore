@@ -1,0 +1,10 @@
+/.lake/
+.DS_Store
+.workbuddy/
+/tmp/
+/output/
+/AnnotatedPapers/
+/docs/revision/
+
+# 默认复现日志；正式核验记录使用单独的日期目录。
+/audit/reports/local/

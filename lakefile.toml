@@ -1,0 +1,18 @@
+name = "EAQECLean"
+version = "0.1.0"
+defaultTargets = ["EAQECC"]
+
+# 固定数学库与量子纠错库的提交，避免依赖本机目录布局。
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "a3fde5017d59fa3cef8d4d24999f6b9b71b89a3b"
+
+[[require]]
+name = "QEC"
+git = "https://github.com/Stavan-Jain/QECLean.git"
+rev = "7c7372b217930ecb5464627902cd1d5ab60603ea"
+
+[[lean_lib]]
+name = "EAQECC"
